@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/textView2"
+        android:text="今日推荐"
+        android:layout_height="40dp"
+        android:textAppearance="@android:style/TextAppearance.Material.Large" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="99dp"
+        android:id="@+id/button5"
+        android:background="@drawable/draw_1" />
+
+    <TextView
+        android:text="精选课堂"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:id="@+id/button8"
+        android:background="@drawable/draw_4" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="126dp"
+        android:id="@+id/button7"
+        android:background="@drawable/draw_2" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/button9"
+        android:background="@drawable/draw_3" />
+
+
+</LinearLayout>
